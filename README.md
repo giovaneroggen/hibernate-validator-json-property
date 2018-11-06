@@ -1,4 +1,4 @@
-# Hibernate Validator
+# Hibernate Validator Json Property
 
 *Version: 6.0.10.Final - 15-05-2018*
 
