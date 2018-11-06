@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.hibernate.validator</groupId>
-    <artifactId>hibernate-validator-json-property-parent</artifactId>
+    <artifactId>hibernate-validator-parent</artifactId>
     <version>6.0.10.Final</version>
     <packaging>pom</packaging>
 
@@ -222,7 +222,7 @@
         <!-- Forbidden API related properties -->
         <forbiddenapis-junit.path>forbidden-junit.txt</forbiddenapis-junit.path>
 
-        <hibernate-validator-json-property-parent.path>.</hibernate-validator-json-property-parent.path>
+        <hibernate-validator-parent.path>.</hibernate-validator-parent.path>
     </properties>
 
     <dependencyManagement>
@@ -638,11 +638,11 @@
                     <artifactId>license-maven-plugin</artifactId>
                     <version>3.0</version>
                     <configuration>
-                        <header>${hibernate-validator-json-property-parent.path}/build-config/src/main/resources/license.header</header>
+                        <header>${hibernate-validator-parent.path}/build-config/src/main/resources/license.header</header>
                         <strictCheck>true</strictCheck>
                         <headerDefinitions>
-                            <headerDefinition>${hibernate-validator-json-property-parent.path}/build-config/src/main/resources/java-header-style.xml</headerDefinition>
-                            <headerDefinition>${hibernate-validator-json-property-parent.path}/build-config/src/main/resources/xml-header-style.xml</headerDefinition>
+                            <headerDefinition>${hibernate-validator-parent.path}/build-config/src/main/resources/java-header-style.xml</headerDefinition>
+                            <headerDefinition>${hibernate-validator-parent.path}/build-config/src/main/resources/xml-header-style.xml</headerDefinition>
                         </headerDefinitions>
                         <mapping>
                             <java>JAVA_CLASS_STYLE</java>

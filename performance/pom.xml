@@ -10,7 +10,7 @@
 
     <parent>
         <groupId>org.hibernate.validator</groupId>
-        <artifactId>hibernate-validator-json-property-parent</artifactId>
+        <artifactId>hibernate-validator-parent</artifactId>
         <version>6.0.10.Final</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -33,7 +33,7 @@
         <beanvalidation-impl.name>none</beanvalidation-impl.name>
         <beanvalidation-impl.version>none</beanvalidation-impl.version>
 
-        <hibernate-validator-json-property-parent.path>..</hibernate-validator-json-property-parent.path>
+        <hibernate-validator-parent.path>..</hibernate-validator-parent.path>
     </properties>
 
     <dependencies>
