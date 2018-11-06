@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.hibernate.validator</groupId>
-        <artifactId>hibernate-validator-parent</artifactId>
+        <artifactId>hibernate-validator-json-property-parent</artifactId>
         <version>6.0.10.Final</version>
     </parent>
     <artifactId>hibernate-validator-test-utils</artifactId>
@@ -17,7 +17,7 @@
     <name>Hibernate Validator Test Utils</name>
 
     <properties>
-        <hibernate-validator-parent.path>..</hibernate-validator-parent.path>
+        <hibernate-validator-json-property-parent.path>..</hibernate-validator-json-property-parent.path>
         <automatic.module.name>org.hibernate.validator.testutils</automatic.module.name>
     </properties>
 

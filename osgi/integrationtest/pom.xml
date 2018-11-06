@@ -25,7 +25,7 @@
         <maven.deploy.skip>true</maven.deploy.skip>
 
         <forbiddenapis-junit.path>forbidden-allow-junit.txt</forbiddenapis-junit.path>
-        <hibernate-validator-parent.path>../..</hibernate-validator-parent.path>
+        <hibernate-validator-json-property-parent.path>../..</hibernate-validator-json-property-parent.path>
     </properties>
 
     <dependencies>

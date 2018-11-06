@@ -10,7 +10,7 @@
 
     <parent>
         <groupId>org.hibernate.validator</groupId>
-        <artifactId>hibernate-validator-parent</artifactId>
+        <artifactId>hibernate-validator-json-property-parent</artifactId>
         <version>6.0.10.Final</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -21,7 +21,7 @@
     <description>Hibernate Validator CDI Portable Extension</description>
 
     <properties>
-        <hibernate-validator-parent.path>..</hibernate-validator-parent.path>
+        <hibernate-validator-json-property-parent.path>..</hibernate-validator-json-property-parent.path>
     </properties>
 
     <dependencies>

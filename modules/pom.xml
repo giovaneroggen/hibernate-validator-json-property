@@ -10,7 +10,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>org.hibernate.validator</groupId>
-        <artifactId>hibernate-validator-parent</artifactId>
+        <artifactId>hibernate-validator-json-property-parent</artifactId>
         <version>6.0.10.Final</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -39,7 +39,7 @@
 
         <patch-gen-maven-plugin.argLine.add-opens></patch-gen-maven-plugin.argLine.add-opens>
 
-        <hibernate-validator-parent.path>..</hibernate-validator-parent.path>
+        <hibernate-validator-json-property-parent.path>..</hibernate-validator-json-property-parent.path>
     </properties>
 
     <dependencyManagement/>

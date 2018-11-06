@@ -19,6 +19,10 @@
 
     <container qualifier="paraya" default="true">
         <configuration>
+            <property name="jbossHome">${basedir}/target/wildfly-${wildfly.version}</property>
+            <property name="javaVmArguments">
+                -Dee8.preview.mode=true ${arquillian.javaVmArguments.add-opens}
+            </property>
             <property name="glassFishHome">${basedir}/target/payara5</property>
             <!--
             Uncomment to enable debug mode (debug port is 9009, suspend is disabled):

@@ -20,7 +20,7 @@
     <description>Hibernate Validator OSGi integration test for Felix using Payara Server</description>
 
     <properties>
-        <hibernate-validator-parent.path>../..</hibernate-validator-parent.path>
+        <hibernate-validator-json-property-parent.path>../..</hibernate-validator-json-property-parent.path>
     </properties>
 
     <dependencyManagement>
